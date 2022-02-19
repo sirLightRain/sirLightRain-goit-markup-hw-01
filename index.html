@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,7 +8,7 @@
 </head>
 <body>
     <!-- Частина розмітки документу, що містить "шапку" сторінки -->
-    <header class="">
+    <header>
         <!-- Основна навігація сторінки -->
         <nav>
                 <a href="">WebStudio</a>
@@ -27,23 +27,23 @@
     </header>
     
     <!-- Частина розмітки документу, що містить основну частину сторінки -->
-    <main class="">
+    <main>
         <!-- Розмітка 1-ї секції основного тіла сторінки -->
-        <div>
+       
             <!-- Перша секція обгорнутав div для подальшої зручної стилізації -->
             <section>
                 <h1>Эффективные решения для вашего бизнеса
                 Заказать услугу
-                Заказать услугу</h1>
-                <!-- Це або посилання або кнопка. Уточнити у дизайнера. -->
-                <a href="">Заказать услугу</a>
+                </h1>
+                <!-- Кнопка. -->
+                <button type="button">Заказать услугу</button>
             </section>
-        </div>
+       
 
         <!-- Друга секція без обгортання в div з заголовком,якого немає в макеті. він слугує кращій асистивності і буде прихований на етапіпідключення стилів -->
         <section>
-            <!-- Заголовок, який покращує асистивність і буде прихований на етапі підключення стилів -->
-            <!-- <h2>Чем мы лушче</h2> -->
+            <!-- ПРИХОВАНИЙ Заголовок, який покращує асистивність і буде прихований на етапі підключення стилів -->
+            <h2>Чем мы лушче</h2>
             <!-- Перший список секції -->
             <ul>
                 <li>
@@ -63,25 +63,28 @@
                     <p>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
                 </li>
             </ul>
+        </section>
 
+        <!-- Секція №4 -->
+        <section>
             <h2>Чем мы занимаемся</h2>
             
             <!-- Другий список секції який показує приклади робіт-->
             <ul>
                 <li>
-                    <img src="./images/img1optimized.jpg" alt="Програміст програмує" width="370">
+                    <img src="./images/img1optimized.jpg" alt="Разработка програмного обеспечения" width="370">
                 </li>
                 <li>
-                    <img src="./images/img2optimized.jpg" alt="Перевірка телефону по сайту" width="370">
+                    <img src="./images/img2optimized.jpg" alt="Разработка мобильного приложения" width="370">
                 </li>
                 <li>
-                    <img src="./images/img3optimized.jpg" alt="Малювання на планшеті" width="370">
+                    <img src="./images/img3optimized.jpg" alt="Работа с палитрой цветов" width="370">
                 </li>
             </ul>
         </section>
 
-        <div>
-            <!-- Третя секція обгорнта в div для подальшої зручної стилізації -->
+       
+            <!-- 5-та секція обгорнта в div для подальшої зручної стилізації -->
             <section>
                 <h2>Наша команда</h2>
 
@@ -89,17 +92,17 @@
                     <li>
                         <img src="./images/Igor.jpg" alt="Игорь Демьяненко Product Designer" width="260">
                         <h3>Игорь Демьяненко</h3>
-                        <p>Product Designer</p>
+                        <p lang="eu">Product Designer</p>
                     </li>
                     <li>
                         <img src="./images/Olga.jpg" alt="Ольга Репина Frontend Developer" width="260">
                         <h3>Ольга Репина</h3>
-                        <p>Frontend Developer</p>
+                        <p lang="eu">Frontend Developer</p>
                     </li>
                     <li>
                         <img src="./images/Nikolay.jpg" alt="Николай Тарасов Marketing" width="260">
                         <h3>Николай Тарасов</h3>
-                        <p>Marketing</p>
+                        <p lang="eu">Marketing</p>
                     </li>
                     <li>
                         <img src="./images/Mihail.jpg" alt="Михаил Ермаков UI Designer" width="260">
@@ -108,18 +111,23 @@
                     </li>
                 </ul>
             </section>
-        </div>
+        
     </main>
 
     <!-- Частина розмітки документу, що містить "підвал" сторінки -->
-    <footer class="">
-        <div>
+    <footer>
+        
             
             <a href="">WebStudio</a>
-            <address>г. Киев, пр-т Леси Украинки, 26</address>
-            <p><a href="mailto:info@example.com">info@example.com</a></p>
-            <p><a href="tel:+380991111111">+38 (099) 111-11-11</a></p>
-        </div>
+            <address>
+                <ul>
+                    <li><p>г. Киев, пр-т Леси Украинки, 26</p></li>
+                    <li><p><a href="mailto:info@example.com">info@example.com</a></p></li>
+                    <li><p><a href="tel:+380991111111">+38 (099) 111-11-11</a></p></li>
+                </ul>        
+             </address>
+            
+        
     </footer>
     
 </body>
